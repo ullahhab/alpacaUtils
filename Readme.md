@@ -31,31 +31,35 @@ Import the utility functions you need in your Python project:
 from alpacaUtil import some_function
 
 # Example usage
+```bash
+from alpacaUtils import somefunction
 some_function(parameters)
-
 
 Replace some_function with the specific utility function you want to use. Inline docstrings provide detailed usage for each function.
 
-File Structure
+```
+## File Structure
+```bash
 alpacaUtils/
 │
 ├── alpacaUtil.py       # Core utility functions
 ├── requirements.txt    # Python dependencies
 ├── README.md           # This file
 └── .gitignore          # Files and directories to ignore in Git
+```
 
-Contributing
+## Contributing
 
 Contributions are welcome! To contribute:
 
-Fork the repository.
+1. Fork the repository.
 
-Create a new branch for your feature or bug fix.
+2. Create a new branch for your feature or bug fix.
 
-Make your changes.
+3. Make your changes.
 
-Submit a pull request with a detailed description of your changes.
+4. Submit a pull request with a detailed description of your changes.
 
-Contact
+5. Contact
 
-For questions or support, reach out to Hamad Ullah via GitHub or open an issue in this repository.
+6. For questions or support, reach out to Hamad Ullah via GitHub or open an issue in this repository.
