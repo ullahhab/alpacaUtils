@@ -3,6 +3,7 @@ from alpaca_trade_api.rest import APIError
 import os
 from dotenv import load_dotenv
 
+
 def buildClient(url: str = None, secret: str = None, key: str = None) -> tradeapi.REST:
     """
     Builds and returns an Alpaca REST client.
@@ -110,11 +111,12 @@ def writeKey(url: str, key: str, secret: str) -> tradeapi.REST:
         key = input("Please input ALPACA Key: ")
         secret = input("Please input ALPACA Secret: ")
         url = input("Please input URL for credentials: ")
+        gemini_api = input("please input gemini api key: ")
         client = checkAlpacaConnection(url, secret, key)
 
     # Write to .env file
     with open('.env', 'w') as env_file:
-        env_file.write(f"ALPACA_API_KEY={key}\nALPACA_SECRET_KEY={secret}\nALPACA_URL={url}\n")
+        env_file.write(f"ALPACA_API_KEY={key}\nALPACA_SECRET_KEY={secret}\nALPACA_URL={url}\nGEMINI_API_KEY={gemini_api}")
 
     print("Credentials have been written to the file")
     return client
@@ -126,6 +128,7 @@ if __name__ == "__main__":
         key = input("Please input ALPACA Key: ")
         secret = input("Please input ALPACA Secret: ")
         url = input("Please input URL for credentials: ")
+        gemini_api = input("please input gemini api key: ")
     else:
         load_dotenv()
         key = os.getenv("ALPACA_API_KEY")
