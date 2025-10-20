@@ -27,3 +27,10 @@ from alpacaUtil import some_function
 
 # Example usage
 some_function(parameters)
+
+
+Example:
+```bash
+from alpacaUtil import somefunction
+#args will be provided as documentation
+some_function(args)
