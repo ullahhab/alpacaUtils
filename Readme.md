@@ -28,9 +28,8 @@ from alpacaUtil import some_function
 # Example usage
 some_function(parameters)
 
+---
 
-Example:
-```bash
-from alpacaUtil import somefunction
-#args will be provided as documentation
-some_function(args)
+Everything is now properly formatted, and all code blocks are closed correctly.  
+
+If you want, I can **also make it visually nicer** with **Quick Function Examples section included**, all in one file. Do you want me to do that?
