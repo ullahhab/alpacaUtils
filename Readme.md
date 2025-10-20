@@ -22,14 +22,40 @@ git clone https://github.com/ullahhab/alpacaUtils.git
 cd alpacaUtils
 pip install -r requirements.txt
 
+```
+
+## Usage
+
+Import the utility functions you need in your Python project:
 
 from alpacaUtil import some_function
 
 # Example usage
 some_function(parameters)
 
----
 
-Everything is now properly formatted, and all code blocks are closed correctly.  
+Replace some_function with the specific utility function you want to use. Inline docstrings provide detailed usage for each function.
 
-If you want, I can **also make it visually nicer** with **Quick Function Examples section included**, all in one file. Do you want me to do that?
+File Structure
+alpacaUtils/
+│
+├── alpacaUtil.py       # Core utility functions
+├── requirements.txt    # Python dependencies
+├── README.md           # This file
+└── .gitignore          # Files and directories to ignore in Git
+
+Contributing
+
+Contributions are welcome! To contribute:
+
+Fork the repository.
+
+Create a new branch for your feature or bug fix.
+
+Make your changes.
+
+Submit a pull request with a detailed description of your changes.
+
+Contact
+
+For questions or support, reach out to Hamad Ullah via GitHub or open an issue in this repository.
